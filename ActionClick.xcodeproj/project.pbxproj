@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0369B08114EE29C4008EBFB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0369B08014EE29C4008EBFB3 /* Cocoa.framework */; };
+		0369B08B14EE29C4008EBFB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0369B08914EE29C4008EBFB3 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0369B07D14EE29C4008EBFB3 /* ActionClick.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionClick.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0369B08014EE29C4008EBFB3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0369B08314EE29C4008EBFB3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0369B08414EE29C4008EBFB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0369B08514EE29C4008EBFB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0369B08814EE29C4008EBFB3 /* ActionClick-Info.plist */ = {isa = PBXFileReference; path = "ActionClick-Info.plist"; sourceTree = "<group>"; };
+		0369B08A14EE29C4008EBFB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0369B08C14EE29C4008EBFB3 /* ActionClick-Prefix.pch */ = {isa = PBXFileReference; path = "ActionClick-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0369B07A14EE29C4008EBFB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0369B08114EE29C4008EBFB3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0369B07214EE29C4008EBFB3 = {
+			isa = PBXGroup;
+			children = (
+				0369B08614EE29C4008EBFB3 /* ActionClick */,
+				0369B07F14EE29C4008EBFB3 /* Frameworks */,
+				0369B07E14EE29C4008EBFB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0369B07E14EE29C4008EBFB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0369B07D14EE29C4008EBFB3 /* ActionClick.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0369B07F14EE29C4008EBFB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0369B08014EE29C4008EBFB3 /* Cocoa.framework */,
+				0369B08214EE29C4008EBFB3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0369B08214EE29C4008EBFB3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0369B08314EE29C4008EBFB3 /* AppKit.framework */,
+				0369B08414EE29C4008EBFB3 /* CoreData.framework */,
+				0369B08514EE29C4008EBFB3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0369B08614EE29C4008EBFB3 /* ActionClick */ = {
+			isa = PBXGroup;
+			children = (
+				0369B08714EE29C4008EBFB3 /* Supporting Files */,
+			);
+			path = ActionClick;
+			sourceTree = "<group>";
+		};
+		0369B08714EE29C4008EBFB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0369B08814EE29C4008EBFB3 /* ActionClick-Info.plist */,
+				0369B08914EE29C4008EBFB3 /* InfoPlist.strings */,
+				0369B08C14EE29C4008EBFB3 /* ActionClick-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0369B07C14EE29C4008EBFB3 /* ActionClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0369B08F14EE29C4008EBFB3 /* Build configuration list for PBXNativeTarget "ActionClick" */;
+			buildPhases = (
+				0369B07914EE29C4008EBFB3 /* Sources */,
+				0369B07A14EE29C4008EBFB3 /* Frameworks */,
+				0369B07B14EE29C4008EBFB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionClick;
+			productName = ActionClick;
+			productReference = 0369B07D14EE29C4008EBFB3 /* ActionClick.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0369B07414EE29C4008EBFB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 0369B07714EE29C4008EBFB3 /* Build configuration list for PBXProject "ActionClick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0369B07214EE29C4008EBFB3;
+			productRefGroup = 0369B07E14EE29C4008EBFB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0369B07C14EE29C4008EBFB3 /* ActionClick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0369B07B14EE29C4008EBFB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0369B08B14EE29C4008EBFB3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0369B07914EE29C4008EBFB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0369B08914EE29C4008EBFB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0369B08A14EE29C4008EBFB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0369B08D14EE29C4008EBFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0369B08E14EE29C4008EBFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0369B09014EE29C4008EBFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionClick/ActionClick-Prefix.pch";
+				INFOPLIST_FILE = "ActionClick/ActionClick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0369B09114EE29C4008EBFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionClick/ActionClick-Prefix.pch";
+				INFOPLIST_FILE = "ActionClick/ActionClick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0369B07714EE29C4008EBFB3 /* Build configuration list for PBXProject "ActionClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0369B08D14EE29C4008EBFB3 /* Debug */,
+				0369B08E14EE29C4008EBFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0369B08F14EE29C4008EBFB3 /* Build configuration list for PBXNativeTarget "ActionClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0369B09014EE29C4008EBFB3 /* Debug */,
+				0369B09114EE29C4008EBFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0369B07414EE29C4008EBFB3 /* Project object */;
+}
