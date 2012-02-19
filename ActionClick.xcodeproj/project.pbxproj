@@ -82,10 +82,10 @@
 		0369B08614EE29C4008EBFB3 /* ActionClick */ = {
 			isa = PBXGroup;
 			children = (
-				0369B08714EE29C4008EBFB3 /* Supporting Files */,
 				0369B0A214EE2BAB008EBFB3 /* ActionClick.h */,
 				0369B0A314EE2BAB008EBFB3 /* ActionClick.m */,
 				0369B0A514EE2BC1008EBFB3 /* ActionClick.xib */,
+				0369B08714EE29C4008EBFB3 /* Supporting Files */,
 			);
 			path = ActionClick;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActionClick/ActionClick-Prefix.pch";
 				INFOPLIST_FILE = "ActionClick/ActionClick-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "@executable_path/../Plugins";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
@@ -255,7 +255,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActionClick/ActionClick-Prefix.pch";
 				INFOPLIST_FILE = "ActionClick/ActionClick-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "@executable_path/../Plugins";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
