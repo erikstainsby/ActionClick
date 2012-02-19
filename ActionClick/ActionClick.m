@@ -14,9 +14,13 @@
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
-		[self setName: @"Click Event"];
+		[self setName: @"Click"];
     }
     return self;
+}
+
+- (BOOL) hasSelectorField {
+	return YES;
 }
 
 @end

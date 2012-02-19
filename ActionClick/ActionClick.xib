@@ -46,14 +46,13 @@
 					<object class="NSButton" id="753780896">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{346, 11}, {136, 18}}</string>
+						<string key="NSFrame">{{289, 11}, {111, 18}}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:771</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="185951831">
-							<int key="NSCellFlags">-2080244224</int>
+							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">0</int>
 							<string key="NSContents">Stop bubbling</string>
 							<object class="NSFont" key="NSSupport" id="116380938">
@@ -81,16 +80,16 @@
 					<object class="NSButton" id="964466313">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{118, 11}, {187, 18}}</string>
+						<string key="NSFrame">{{87, 11}, {187, 18}}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="753780896"/>
 						<string key="NSReuseIdentifierKey">_NS:771</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="963282888">
-							<int key="NSCellFlags">-2080244224</int>
+							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Prevent default event</string>
+							<string key="NSContents">Prevent default behaviour</string>
 							<reference key="NSSupport" ref="116380938"/>
 							<string key="NSCellIdentifier">_NS:771</string>
 							<reference key="NSControlView" ref="964466313"/>
@@ -143,7 +142,7 @@
 					<object class="NSTextField" id="598187355">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{120, 35}, {370, 22}}</string>
+						<string key="NSFrame">{{120, 35}, {282, 22}}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="964466313"/>
@@ -175,7 +174,7 @@
 						</object>
 					</object>
 				</object>
-				<string key="NSFrameSize">{500, 70}</string>
+				<string key="NSFrameSize">{410, 70}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="905824921"/>
@@ -192,6 +191,14 @@
 						<reference key="destination" ref="1005"/>
 					</object>
 					<int key="connectionID">6</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">selectorField</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="598187355"/>
+					</object>
+					<int key="connectionID">11</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -230,8 +237,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="905824921"/>
 							<reference ref="598187355"/>
-							<reference ref="964466313"/>
 							<reference ref="753780896"/>
+							<reference ref="964466313"/>
 						</object>
 						<reference key="parent" ref="1002"/>
 					</object>
@@ -338,7 +345,7 @@
 				<reference key="dict.values" ref="1002"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">10</int>
+			<int key="maxID">11</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -358,24 +365,41 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>hasSelectorField</string>
+							<string>multiRowForm</string>
 							<string>name</string>
 							<string>rules</string>
+							<string>selectorField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>BOOL</string>
+							<string>BOOL</string>
 							<string>NSString</string>
 							<string>NSMutableArray</string>
+							<string>NSTextField</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>hasSelectorField</string>
+							<string>multiRowForm</string>
 							<string>name</string>
 							<string>rules</string>
+							<string>selectorField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">hasSelectorField</string>
+								<string key="candidateClassName">BOOL</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">multiRowForm</string>
+								<string key="candidateClassName">BOOL</string>
+							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">name</string>
 								<string key="candidateClassName">NSString</string>
@@ -383,6 +407,10 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">rules</string>
 								<string key="candidateClassName">NSMutableArray</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">selectorField</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 						</object>
 					</object>
