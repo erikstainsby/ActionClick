@@ -10,4 +10,7 @@
 
 @interface ActionClick : RSTrixiePlugin
 
+@property (retain) IBOutlet NSButton * preventDefaultBehaviour;
+@property (retain) IBOutlet NSButton * stopBubbling;
+
 @end

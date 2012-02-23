@@ -10,6 +10,9 @@
 
 @implementation ActionClick
 
+@synthesize preventDefaultBehaviour;
+@synthesize stopBubbling;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
