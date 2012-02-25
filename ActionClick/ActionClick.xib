@@ -296,6 +296,7 @@
 							<reference ref="675674030"/>
 						</object>
 						<reference key="parent" ref="251555403"/>
+						<string key="objectName">preventDefaultButton</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">24</int>
@@ -310,6 +311,7 @@
 							<reference ref="155199930"/>
 						</object>
 						<reference key="parent" ref="251555403"/>
+						<string key="objectName">stopBubblingButton</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">26</int>
@@ -331,8 +333,10 @@
 					<string>20.IBPluginDependency</string>
 					<string>22.IBPluginDependency</string>
 					<string>23.IBPluginDependency</string>
+					<string>23.userInterfaceItemIdentifier</string>
 					<string>24.IBPluginDependency</string>
 					<string>25.IBPluginDependency</string>
+					<string>25.userInterfaceItemIdentifier</string>
 					<string>26.IBPluginDependency</string>
 				</object>
 				<object class="NSArray" key="dict.values">
@@ -346,8 +350,10 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>preventDefaultButton</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>stopBubblingButton</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 				</object>
 			</object>
@@ -375,8 +381,8 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>preventDefaultBehaviour</string>
-							<string>stopBubbling</string>
+							<string>preventDefaultButton</string>
+							<string>stopBubblingButton</string>
 						</object>
 						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -388,17 +394,17 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>preventDefaultBehaviour</string>
-							<string>stopBubbling</string>
+							<string>preventDefaultButton</string>
+							<string>stopBubblingButton</string>
 						</object>
 						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBToOneOutletInfo">
-								<string key="name">preventDefaultBehaviour</string>
+								<string key="name">preventDefaultButton</string>
 								<string key="candidateClassName">NSButton</string>
 							</object>
 							<object class="IBToOneOutletInfo">
-								<string key="name">stopBubbling</string>
+								<string key="name">stopBubblingButton</string>
 								<string key="candidateClassName">NSButton</string>
 							</object>
 						</object>
