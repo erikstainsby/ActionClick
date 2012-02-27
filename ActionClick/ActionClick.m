@@ -10,21 +10,15 @@
 
 @implementation ActionClick
 
-@synthesize preventDefaultButton;
-@synthesize stopBubblingButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
-		[self setName: @"Click"];
+		[self setPluginName: @"Click"];
 		
     }
     return self;
-}
-
-- (BOOL) hasSelectorField {
-	return YES;
 }
 
 - (BOOL) hasPreventDefaultButton { 
@@ -32,13 +26,12 @@
 } 
 - (BOOL) hasStopBubblingButton { 
 	return YES; 
-}
+} 
 - (BOOL) preventDefault {
-	return [preventDefaultButton integerValue];
+	return [[self preventDefaultButton] state];
 }
 - (BOOL) stopBubbling {
-	return [stopBubblingButton integerValue];
+	return [[self stopBubblingButton] state];
 }
-
 
 @end

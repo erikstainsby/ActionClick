@@ -6,11 +6,9 @@
 //  Copyright (c) 2012 Roaring Sky. All rights reserved.
 //
 
-#import <RSTrixiePlugin/RSTrixiePlugin.h>
+#import <RSTrixiePlugin/RSActionPlugin.h>
 
-@interface ActionClick : RSTrixiePlugin
+@interface ActionClick : RSActionPlugin
 
-@property (retain) IBOutlet NSButton * preventDefaultButton;
-@property (retain) IBOutlet NSButton * stopBubblingButton;
 
 @end
